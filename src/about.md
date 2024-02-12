@@ -1,4 +1,4 @@
-# 关于
+# 说明
 本网站同时部署于 Github (<https://albertlei.github.io/p>)
 和 Netlify (<https://albertlei.netlify.app>).
 如果你在中国内地, 建议通过 Netlify 的链接访问.
