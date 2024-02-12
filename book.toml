@@ -8,3 +8,6 @@ title = "Haoran's webpage"
 [build]
 build-dir = "docs"
 create-missing = false
+
+[output.html.search]
+enable = false     # search does not work with chinese
