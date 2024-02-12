@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="about.html">说明</a></li><li class="chapter-item expanded affix "><li class="part-title">经济学</li><li class="chapter-item expanded "><a href="econ-journal.html"><strong aria-hidden="true">1.</strong> 经济学期刊</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="about.html">说明</a></li><li class="chapter-item expanded affix "><li class="part-title">经济学</li><li class="chapter-item expanded "><a href="econ-journal.html"><strong aria-hidden="true">1.</strong> 经济学中文期刊</a></li><li class="chapter-item expanded "><a href="journal.html"><strong aria-hidden="true">2.</strong> 经济学英文期刊</a></li><li class="chapter-item expanded "><a href="games.html"><strong aria-hidden="true">3.</strong> Fun Games</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -211,6 +211,51 @@
 <li>《管理科学学报》</li>
 <li>《中国管理科学》</li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="经济学英文期刊"><a class="header" href="#经济学英文期刊">经济学英文期刊</a></h1>
+<p>本页面罗列常见的 (微观)经济学理论期刊,
+主要供 <strong>刚开始写论文的本科生</strong> 参考.</p>
+<h2 id="顶刊"><a class="header" href="#顶刊">顶刊</a></h2>
+<p>所谓的 top-five: </p>
+<ul>
+<li>American Economic Review <a href="https://www.aeaweb.org/journals/aer/forthcoming">AER</a></li>
+<li>Econometrica <a href="https://www.econometricsociety.org/publications/econometrica/forthcoming-papers">Ecma</a> </li>
+<li>Journal of Political Economy <a href="https://www.journals.uchicago.edu/toc/jpe/0/0">JPE</a> </li>
+<li>Quarterly Journal of Economics <a href="https://academic.oup.com/qje/search-results?q=&amp;tax=JEL/D">QJE</a> </li>
+<li>Review of Economic Studies <a href="https://academic.oup.com/restud/search-results?q=&amp;tax=JEL/D8">RES</a></li>
+</ul>
+<h2 id="博弈论微观经济理论"><a class="header" href="#博弈论微观经济理论">博弈论/微观经济理论</a></h2>
+<p>子领域顶刊:</p>
+<ul>
+<li>Games and Economic Behavior <a href="https://www.sciencedirect.com/journal/games-and-economic-behavior/">GEB</a></li>
+<li>Journal of Economic Theory <a href="https://www.sciencedirect.com/journal/journal-of-economic-theory">JET</a></li>
+<li>Theoretical Economics <a href="https://econtheory.org/">TE</a></li>
+</ul>
+<h2 id="产业组织"><a class="header" href="#产业组织">产业组织</a></h2>
+<p>子领域顶刊:</p>
+<ul>
+<li>Rand Jounral of Economics <a href="http://www.rje.org/">Rand</a></li>
+<li>International Journal of Industrial Organization <a href="https://www.sciencedirect.com/journal/international-journal-of-industrial-organization">IJIO</a></li>
+<li>Journal of Industrial Organization <a href="https://www.jstor.org/journal/jinduecon">JIE</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fun-games"><a class="header" href="#fun-games">Fun Games</a></h1>
+<p>一些好玩的游戏:</p>
+<ul>
+<li><a href="https://ncase.me/trust/">The evolution of trust</a></li>
+<li><a href="http://mathsite.math.berkeley.edu/smp/smp.html">Stable marriage problem</a> (Adobe Flash required)</li>
+<li>Banach–Mazur Game.
+<ul>
+<li>Let <em>A</em> be a subset of <em>R</em>. There are two players, Alice and Bob.</li>
+<li>Round 1: Bob chooses a closed interval of positive length: U₁ ⊆ R.
+Then, Alice chooses a closed interval of positive length: V₁⊆ U₁.</li>
+<li>Round 2: Bob chooses a closed interval of positive length: U₂ ⊆ V₁.
+Then, Alice chooses a closed interval of positive length: V₂⊆ U₂.</li>
+<li>... after countably-infinite many rounds, 
+let E := ∩ᵢVᵢ. Alice wins if E ∩ A is empty. Otherwise, Bob wins.</li>
+<li>If A is the set of rational number, will Alice have a winning strategy? What if 
+A is an interval, say (a,b)?</li>
+</ul>
+</li>
+</ul>
 
                     </main>
 
@@ -229,6 +274,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
