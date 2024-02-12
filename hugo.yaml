@@ -1,7 +1,0 @@
-baseURL: 'albertlei.github.io/p' # you may change this
-title: '资料备份' # change it to your course name
-publishDir: "docs"
-languageCode: 'zh'
-markup:
-  highlight:
-    style: solarized-light    

@@ -1,0 +1,10 @@
+[book]
+authors = ["Haoran"]
+language = "zh"
+multilingual = true
+src = "src"
+title = "Haoran's webpage"
+
+[build]
+build-dir = "docs"
+create-missing = false
