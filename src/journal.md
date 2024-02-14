@@ -16,7 +16,7 @@
 - Theoretical Economics [TE](https://econtheory.org/)
 
 ## 产业组织
-- Rand Jounral of Economics [Rand]
+- Rand Journal of Economics [Rand]
 - International Journal of Industrial Organization [IJIO]
 - Journal of Industrial Organization [JIE]
 
