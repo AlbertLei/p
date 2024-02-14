@@ -5,5 +5,5 @@
 
 [我的学 (wú) 术 (liáo) 主页](https://albertlei.github.io)
 
-## Quick links
-- [经济学期刊](econ-journal.md)
+<!-- ## Quick links
+- [经济学期刊](econ-journal.md) -->

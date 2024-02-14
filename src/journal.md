@@ -11,13 +11,11 @@
 - Review of Economic Studies [RES]
 
 ## 博弈论/微观经济理论
-子领域顶刊:
 - Games and Economic Behavior [GEB]
 - Journal of Economic Theory [JET]
 - Theoretical Economics [TE](https://econtheory.org/)
 
 ## 产业组织
-子领域顶刊:
 - Rand Jounral of Economics [Rand]
 - International Journal of Industrial Organization [IJIO]
 - Journal of Industrial Organization [JIE]
