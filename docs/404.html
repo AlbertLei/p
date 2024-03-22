@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="about.html">说明</a></li><li class="chapter-item expanded affix "><li class="part-title">经济学</li><li class="chapter-item expanded "><a href="econ-journal.html"><strong aria-hidden="true">1.</strong> 经济学中文期刊</a></li><li class="chapter-item expanded "><a href="journal.html"><strong aria-hidden="true">2.</strong> 经济学英文期刊</a></li><li class="chapter-item expanded "><a href="games.html"><strong aria-hidden="true">3.</strong> Fun Games</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="about.html">说明</a></li><li class="chapter-item expanded affix "><li class="part-title">经济学</li><li class="chapter-item expanded "><a href="econ-journal.html"><strong aria-hidden="true">1.</strong> 经济学中文期刊</a></li><li class="chapter-item expanded "><a href="journal.html"><strong aria-hidden="true">2.</strong> 经济学英文期刊</a></li><li class="chapter-item expanded "><a href="games.html"><strong aria-hidden="true">3.</strong> Fun Games</a></li><li class="chapter-item expanded affix "><li class="part-title">本科毕业论文</li><li class="chapter-item expanded "><a href="office-word.html"><strong aria-hidden="true">4.</strong> 安装 Word + 方程编辑器</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -181,6 +181,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
